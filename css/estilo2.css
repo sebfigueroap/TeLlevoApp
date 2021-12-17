@@ -1,0 +1,133 @@
+.cont1{
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/autitoborroso.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+header{
+  background: #343a40;
+  color: #fff;
+  height: 10%;
+}
+
+.footer {
+  width: 100%;
+  
+  background: #343a40;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.tit img{
+  width: 16%;
+  margin-left: 41.5%;
+  min-width: 200px;
+  
+}
+
+.qr{
+  width: 350px;
+  float: right;
+  margin-top: 15%;
+  border: solid #0E539C 10px;
+  border-radius: 20px;
+}
+
+.descarga{
+  width: 350px;
+  float: bottom;
+  margin-top: 15%;
+  display: none;
+
+  border: none;
+  outline: none;
+  height: 60px;
+  background: #ffc107;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.divbtn :hover {
+  cursor: pointer;
+  background: #b80f22;
+  color: #000;
+}
+
+.divbtn{
+  margin-left: 10%;
+}
+
+.card1 {
+  width: 350px;
+  background: #0E539C;
+  float: left;
+  font-family: Arial;
+  color: #D0D2D5;;
+  height: 450px;
+  margin-top: 15%;
+
+  border: solid #343a40 10px;
+  border-radius: 20px;
+   
+}
+
+.card1 h1,p{
+  text-align: center;
+  line-height: 1.5;
+}
+
+.card1 h3{
+  text-align: center;
+}
+
+.footer a{
+  color: aqua;
+}
+
+.divimg{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.divimg p{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto; 
+}
+
+#map{
+  height: 200px;
+  width: 400px;
+  float: right;
+  margin: auto;
+  margin-right: 5%;
+  border: solid skyblue 10px;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 926px){
+  .qr{
+    display: none;
+  }
+
+  .descarga{
+    display: inline;
+  }
+
+  #map{
+    display: none;
+  }
+
+}
